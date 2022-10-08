@@ -58,13 +58,12 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image and cover text*/
+/* hero image and cover text */
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
     position: relative;
 }
 
@@ -96,7 +95,7 @@ h1, h2 {
 
 #cover-text {
     font-size: 130%;
-    font-family: Oswald;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -120,7 +119,7 @@ h1, h2 {
     height: 600px;
 }
 
- #left-about {
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
@@ -140,7 +139,7 @@ h1, h2 {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    height: 50px;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -185,7 +184,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -203,7 +202,7 @@ hr {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
     float: left;
@@ -245,7 +244,6 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-
 }
 
 #photos > img {
@@ -254,7 +252,7 @@ footer {
 
 /* media queries */
 
-/* for larger to medium size screens from 1200px wide and down */
+/* for larger to medium sizes screens from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
     #club-ethos {
@@ -267,7 +265,6 @@ footer {
         padding: 30px 0;
         margin: 0;
     }
-
 
     #left-about, right-about {
         width: 100%;
@@ -294,16 +291,16 @@ footer {
     }
 }
 
-/* for medium screen size from 950px wide and down */
+/* for medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
     
     #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
     #cover-text {
@@ -335,7 +332,7 @@ footer {
     }
 }
 
-/* for small screens 800px and down */
+/* for small screen sizes 800px and down */
 
 @media screen and (max-width: 800px) {
     #photos {
